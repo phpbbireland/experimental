@@ -34,7 +34,7 @@
 		</author>
 	</author-group>
 
-	<mod-version>1.0.16</mod-version>
+	<mod-version>1.0.17</mod-version>
 
 	<installation>
 		<level>intermediate</level>
@@ -43,6 +43,13 @@
 	</installation>
 
 	<history>
+		<entry>
+			<date>2012-07-04</date>
+			<rev-version>1.0.17</rev-version>
+			<changelog lang="en">
+				<change>Validation fixes to come.</change>
+			</changelog>
+		</entry>
 		<entry>
 			<date>2012-07-04</date>
 			<rev-version>1.0.17</rev-version>
