@@ -1,5 +1,5 @@
-experimental
-============
+Experimental
+------------
 
 This contains a working copy of 1.0.17 for phpBB 3.0.11... 
 
