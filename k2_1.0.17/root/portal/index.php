@@ -106,7 +106,7 @@ $versions = array(
 
 		'config_add' => array(
 			array('portal_enabled', 1),
-			array('portal_build', '310-017'),
+			array('portal_build', '311-017'),
 			array('blocks_enabled', 1),
 			array('blocks_width', '190'),
 			array('force_default_if_style_missing', 1),
@@ -273,10 +273,24 @@ $versions = array(
 		),
 
 		// purge the cache
-		'cache_purge' => array('', 'imageset', 'template', 'theme'),
+		//'cache_purge' => array('', 'imageset', 'template', 'theme'),
+
+		// purge all cache
+		'cache_purge' => array(),
+
+		/*
+		// a more specific call would be
+		cache_purge => array(
+			'auth', // auth
+			array('imageset', 1), // imageset (id 1)
+			array('template', 2), // template (id 2)
+			'theme', // all themes
+		),
+		*/
 	),
 
-);//versions
+);//version
+
 
 include($phpbb_root_path . 'umil/umil_auto.' . $phpEx);
 
