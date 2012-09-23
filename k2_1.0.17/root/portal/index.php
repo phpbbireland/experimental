@@ -273,10 +273,7 @@ $versions = array(
 		),
 
 		// purge the cache
-		//'cache_purge' => array('', 'imageset', 'template', 'theme'),
-
-		// purge all cache
-		'cache_purge' => array(),
+		'cache_purge' => array('', 'imageset', 'template', 'theme'),
 
 		/*
 		// a more specific call would be
@@ -289,7 +286,7 @@ $versions = array(
 		*/
 	),
 
-);//version
+);//versions
 
 
 include($phpbb_root_path . 'umil/umil_auto.' . $phpEx);
