@@ -1,5 +1,6 @@
 Experimental
 ------------
+Security: All jquery should be updated to > 3.5.0
 
 This contains a working copy of 1.0.17 intended for inclusion with phpBB 3.0.11... 
 
